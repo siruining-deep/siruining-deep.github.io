@@ -7,7 +7,7 @@ Intended address: https://siruining-deep.github.io/
 ## Publish
 
 1. Create the public GitHub repository `siruining-deep/siruining-deep.github.io`.
-2. Upload index.html, about.html, papers.html, styles.css, README.md, and .nojekyll to the root of `main`. `index.html` must be at the repository root.
+2. Upload index.html, about.html, papers.html, styles.css, README.md, .nojekyll, and the three note PDFs to the root of `main`. `index.html` must be at the repository root.
 3. In Settings → Pages, choose Deploy from a branch, select `main` and `/ (root)`, then Save.
 4. Wait for the Pages deployment to finish, then visit the address above.
 
@@ -15,7 +15,7 @@ No package installation or build command is required. `.nojekyll` disables Jekyl
 
 ## Edit
 
-- `index.html`: introduction, recent research, notes, and thesis.
+- `index.html`: introduction, recent research, and short notes.
 - `about.html`: appointments, education, teaching, service, and selected awards.
 - `papers.html`: 2 recent preprints and 11 published papers.
 - `styles.css`: shared responsive layout.
@@ -25,3 +25,11 @@ Content was prepared from the owner's CV and Google Scholar profile on September
 Only this directory belongs in the public repository. Do not upload its parent directory.
 
 GitHub Pages instructions: https://docs.github.com/en/pages/quickstart
+
+## Short notes
+
+- `membrane-fluctuations.pdf`: Helfrich elasticity, equilibrium spectra, hydrodynamic relaxation, and excess area.
+- `membrane-charging.pdf`: linear Poisson–Nernst–Planck theory, Debye screening, and membrane charging.
+- `osmosis-onsager.pdf`: conjugate forces and fluxes, Onsager reciprocity, and Kedem–Katchalsky transport.
+
+These are expository working notes on standard models. Each note includes derivations, an illustrative analytic plot, assumptions, and references. The CV PDF is not included.
