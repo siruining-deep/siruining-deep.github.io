@@ -37,9 +37,9 @@ GitHub Pages instructions: https://docs.github.com/en/pages/quickstart
 - `conformal-field-theory.pdf`: primary fields, the Virasoro algebra, and cylinder energies in two-dimensional CFT (2 pages).
 - `quantum-hall-effect.pdf`: Landau levels, integer plateaus, Laughlin states, and fractional charge (2 pages).
 
-- `kpz-equation.pdf`: KPZ growth, dynamic scaling, Burgers dynamics, and the Cole–Hopf transform (2 pages).
-- `stochastic-thermodynamics.pdf`: trajectory-level work and heat, fluctuation theorems, and a harmonic-trap example (2 pages).
-- `motility-induced-phase-separation.pdf`: run-and-tumble transport, density-dependent speed, and the phase-separation instability (2 pages).
-- `turing-patterns.pdf`: diffusion-driven instability, geometric mode selection, and mass conservation (2 pages).
+- `kpz-equation.pdf`: KPZ scaling, the exact Edwards–Wilkinson width, stationary measures, crossover scales, and the Cole–Hopf/polymer connection (5 pages).
+- `stochastic-thermodynamics.pdf`: probability-current entropy production, Crooks and Jarzynski relations, finite-speed trap dragging, and molecular-motor cycles (6 pages).
+- `motility-induced-phase-separation.pdf`: exact run-and-tumble kinetics, finite-range density sensing, spinodal versus coexistence, and interface profiles (5 pages).
+- `turing-patterns.pdf`: Schnakenberg kinetics, dispersion and eigenvectors, finite-domain modes, and mass-redistribution instability (5 pages).
 
-These are expository study notes on standard models, with definitions, short derivations, and references. The three biophysics notes also include illustrative analytic plots. The CV PDF is not included.
+These are expository study notes on standard models, with definitions, derivations, and references. The membrane notes and four expanded biophysics notes also include illustrative analytic plots and worked examples. The CV PDF is not included.
