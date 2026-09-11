@@ -15,7 +15,7 @@ No package installation or build command is required. `.nojekyll` disables Jekyl
 
 ## Edit
 
-- `index.html`: introduction, recent research, and short notes.
+- `index.html`: introduction, recent research, and study notes grouped by subject.
 - `about.html`: appointments, education, teaching, service, and selected awards.
 - `papers.html`: 2 recent preprints and 11 published papers.
 - `fun.html`: three accessible biophysics paper recommendations with brief summaries and primary-source links.
@@ -44,3 +44,7 @@ GitHub Pages instructions: https://docs.github.com/en/pages/quickstart
 - `turing-patterns.pdf`: Schnakenberg kinetics, dispersion and eigenvectors, finite-domain modes, and mass-redistribution instability (5 pages).
 
 These are expository study notes on standard models, with definitions, derivations, and references. The membrane notes and four expanded biophysics notes also include illustrative analytic plots and worked examples. The CV PDF is not included.
+
+## Extended study notes
+
+Four English study notes cover AdS/CFT (20 pages), black holes (20 pages), entanglement entropy (21 pages), and quantum chaos (21 pages). Each includes a contents page, numbered equations, worked calculations, an analytic figure, and primary-source reading references. Preparation dates are omitted.
