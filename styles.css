@@ -28,7 +28,14 @@ li { margin-bottom: 10px; }
 footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px 20px; margin-top: 48px; padding: 16px 0 0; border-top: 1px solid var(--line); color: #586671; font: .8rem/1.65 system-ui, sans-serif; }
 .paper-meta { display: block; color: #586671; font: .78rem/1.6 system-ui, sans-serif; margin-top: 8px; }
 .recent-papers { list-style: none; padding: 0; }
-.recent-papers li { margin-bottom: 22px; padding-left: 18px; border-left: 2px solid #b9d3da; }
+.research-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; margin-block: 0 24px; }
+.recent-papers li { margin: 0; min-width: 0; }
+.recent-papers h3 { margin: 17px 0 0; font: 400 1rem/1.5 Georgia, 'Times New Roman', serif; }
+.work-figure { margin: 0; }
+.work-figure > a { display: block; }
+.work-figure img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: contain; background: #fff; border: 1px solid var(--line); }
+.work-figure figcaption { margin-top: 12px; color: var(--ink); font: 500 .9rem/1.5 system-ui, sans-serif; }
+@media (max-width: 700px) { .research-grid { grid-template-columns: 1fr; gap: 32px; } }
 .section-link { font: .82rem/1.6 system-ui, sans-serif; }
 .paper-list { padding-left: 25px; }
 .paper-list li { padding: 0 0 25px 5px; margin-bottom: 25px; border-bottom: 1px solid #e3e5e7; }
