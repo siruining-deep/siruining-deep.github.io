@@ -15,6 +15,9 @@ p { margin: 0 0 22px; }
 h2 { margin: 32px 0 24px; font-weight: 400; font-size: 1.5rem; text-align: center; }
 section + section { margin-top: 32px; padding-top: 1px; border-top: 1px solid var(--line); }
 .intro { max-width: 620px; }
+.biography { display: flow-root; }
+.portrait { float: right; width: 203px; max-width: 100%; height: auto; margin: 5px 0 20px 28px; border-radius: 3px; }
+@media (max-width: 540px) { .portrait { float: none; display: block; margin: 0 auto 24px; } }
 .pending { color: #666b70; }
 .links { display: flex; flex-wrap: wrap; gap: 8px 0; font-size: 1rem; margin-top: 28px; }
 .links > a + a::before { content: '/'; margin-inline: 12px; color: #92979b; display: inline-block; }
